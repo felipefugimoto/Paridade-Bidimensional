@@ -1,4 +1,4 @@
-var bit1=new Array(0,1,0,1,1,0,1,1);
+var bit1=new Array(0,1,0,1,1,0,1,0);
 var bit2=new Array(0,1,0,1,0,0,1,0);
 var bit3=new Array(1,0,0,1,1,0,1,1);
 var bit4=new Array(1,1,0,1,1,0,1,1);
@@ -83,7 +83,7 @@ if(qtd == 0){
 }else{
     bit4.push(1);
 }
-document.write("Valor secundario<br>" + bit1 + "<br>" + bit2 + "<br>" + bit3 + "<br>" + bit4 + "<br><br>");
+document.write("Valor secundario<br>" + bit1 + "<br>" + bit2 + "<br>" + bit3 + "<br>" + bit4 + "<br>");
 qtd=0;
 var m=[bit1,bit2,bit3,bit4];
 var c1, c2,c3, c4,c5, c6, c7, c8,c9;
@@ -211,4 +211,4 @@ if( c9c== 0){
 else{
     res.push(1);
 }
-document.write("Resultado<br>" + res);
+document.write(res);
